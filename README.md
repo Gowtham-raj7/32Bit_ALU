@@ -59,6 +59,7 @@ source /cadence/install/cshrc (mention the path of the tools)
 (The path of cshrc could vary depending on the installation destination)
       
 After this you can see the window like below 
+![Screenshot 2024-11-22 223133](https://github.com/user-attachments/assets/3d17d075-9257-4b79-8081-369bf875bae1)
 
 ### Fig 2: Invoke the Cadence Environment
 
@@ -72,6 +73,7 @@ or
 
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
+![image](https://github.com/user-attachments/assets/edd9e1f4-6fb3-4728-abac-f6c36f1a1ce6)
 
 ### Fig 3: Setting Multi-step simulation
 
@@ -124,6 +126,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
+![Screenshot 2024-11-22 224428](https://github.com/user-attachments/assets/ee6da121-06b0-4dc0-b8b7-6d93e114b4e2)
 
 ### Fig 7: Compiled database in worklib
 
@@ -172,10 +175,13 @@ Outputs: Simulation log file, waveforms for debugging
 Simulation allow to dump design and test bench signals into a waveform 
 
 Steps for simulation – Run the simulation command with simulator options
+![image](https://github.com/user-attachments/assets/d702b3c0-a2b2-4b7b-88a2-c71a04594774)
 
 ## Fig 9: Design Browser window for simulation
+![image](https://github.com/user-attachments/assets/be5f79c7-eefb-4ec3-81ad-0b5684ce690a)
 
 ## Fig 10:Simulation Waveform Window
+![Screenshot 2024-11-22 224734](https://github.com/user-attachments/assets/56db5758-e056-4190-a093-64b70f4c9fa8)
 
 ## Fig 11:Simulation Waveform Window
 
